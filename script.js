@@ -39,3 +39,4 @@ window.addEventListener("DOMContentLoaded", () => {
   greeting.style.fontSize = "18px";
   document.body.prepend(greeting);
 });
+
