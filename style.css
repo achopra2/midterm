@@ -80,12 +80,17 @@ footer {
   header h1 {
     font-size: 1.5em;
   }
+}
+
+/* Red heading for Home Page */
+#home-heading {
+  color: red;
+}
 
 /* Hero Banner Section (Top Half of Home Page) */
 .hero-banner {
   height: 50vh; /* Top half of screen */
   width: 100%;
-  background-image: url('https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,3 +114,21 @@ footer {
   margin-top: 0.5em;
 }
 
+/* Nonprofit Branding */
+.branding {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.brand-name {
+  margin: 0;
+  font-size: 1.8em;
+  color: #2e7d32; /* Deep green */
+}
+
+.tagline {
+  margin: 0;
+  font-size: 1em;
+  color: #4e944f;
+  font-style: italic;
+}
