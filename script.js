@@ -1,8 +1,7 @@
 // script.js
 
 // ➤ Color Options Array
-const colors = ["#808000", "#008000", "#00FF00"]; // olive, green, green
-
+const colors = ["#808000", "#008000", "#00FF00"]; // olive, green, lime
 // ➤ Prompt for User Input
 const userName = prompt("What is your name?");
 const colorChoice = parseInt(prompt("Pick a background color: 0 for olive, 1 for green, 2 for lime"));
