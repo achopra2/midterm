@@ -5,7 +5,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: transparent; /* Allows JavaScript to apply background */
+  background-color: transparent; /* Changed to allow JS to apply background */
   color: #333;
 }
 
@@ -80,17 +80,12 @@ footer {
   header h1 {
     font-size: 1.5em;
   }
-}
-
-/* Red heading for Home Page */
-#home-heading {
-  color: red;
-}
 
 /* Hero Banner Section (Top Half of Home Page) */
 .hero-banner {
-  height: 50vh; /* Half of the viewport height */
+  height: 50vh; /* Top half of screen */
   width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,24 +107,4 @@ footer {
 .hero-banner p {
   font-size: 1.2em;
   margin-top: 0.5em;
-}
-
-/* Nonprofit Branding */
-.branding {
-  background-color: #004225; /* Dark green */
-  padding: 1em;
-  text-align: center;
-}
-
-.brand-name {
-  margin: 0;
-  font-size: 1.8em;
-  color: white; /* White text */
-}
-
-.tagline {
-  margin: 0;
-  font-size: 1em;
-  color: #c8e6c9;
-  font-style: italic;
 }
