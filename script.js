@@ -1,7 +1,7 @@
 // script.js
 
 // ➤ Color Options Array
-const colors = ["#808000", "#008000", "#00FF00"]; // olive, yellow, green
+const colors = ["#808000", "#008000", "#00FF00"]; // olive, green, green
 
 // ➤ Prompt for User Input
 const userName = prompt("What is your name?");
