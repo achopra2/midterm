@@ -5,7 +5,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: transparent; /* Changed to allow JS to apply background */
+  background-color: transparent; /* Allows JavaScript to apply background */
   color: #333;
 }
 
@@ -89,7 +89,7 @@ footer {
 
 /* Hero Banner Section (Top Half of Home Page) */
 .hero-banner {
-  height: 50vh; /* Top half of screen */
+  height: 50vh; /* Half of the viewport height */
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -116,19 +116,20 @@ footer {
 
 /* Nonprofit Branding */
 .branding {
+  background-color: #004225; /* Dark green */
+  padding: 1em;
   text-align: center;
-  margin-bottom: 0.5em;
 }
 
 .brand-name {
   margin: 0;
   font-size: 1.8em;
-  color: #2e7d32; /* Deep green */
+  color: white; /* White text */
 }
 
 .tagline {
   margin: 0;
   font-size: 1em;
-  color: #4e944f;
+  color: #c8e6c9;
   font-style: italic;
 }
